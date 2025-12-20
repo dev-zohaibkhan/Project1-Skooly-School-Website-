@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+}
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+#home-section{
+    background: rgba(0, 0, 0, 0.7)url(img/home-img.jpg);
+    background-size: cover;  
+    background-blend-mode: darken;
+    background-position: center center;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+#item:hover 
+#icon
+{
+    color: white;
+}
+#item:hover{
+    transform: translateY(-15px);
+    transition: all .4s ease-in-out;
+}
+#img img,
+#cat-img,
+#teacher-img img
+{
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+}
+#teacher-img {
+    overflow: hidden;
+    cursor: pointer;
+}
+#teacher-img img:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skooly</title>
+    <!-- Tailwind Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- #06BBCC -->
+     <!-- Custom Css -->
+      <link rel="stylesheet" href="style.css">
+      <!-- Box Icon -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <!-- Header -->
+    <nav class="bg-[#fff] py-4 px-10 fixed w-[100%] z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class=" text-2xl font-bold text-[#06bbcc]">Skooly..</a>
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class=" bg-[#06bbcc] text-[#fff] duration-700  px-3 py-2 rounded">Home</a>
+                <a href="#" class=" hover:bg-[#06bbcc] hover:text-[#fff] duration-700 px-3 py-2 rounded">About</a>
+                <a href="#" class=" hover:bg-[#06bbcc] hover:text-[#fff] duration-700 px-3 py-2 rounded">Services</a>
+                <a href="#" class=" hover:bg-[#06bbcc] hover:text-[#fff] duration-700 px-3 py-2 rounded">Contact</a>
+            </div>
+            <button class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <!-- home section -->
+     <section class="flex items-center justify text-left" id="home-section">
+        <div class=" max-w-[1320px] sm:mx-[100px] mx-[40px] relative md:top-[70px]">
+            <div class="content">
+                <h5 class="text-xl font-bold text-[#06BBCC] mb-3">BEST ONLINE COURSES</h5>
+                <h1 class="text-[#fff] md:text-[70px] sm:text-[50px] text-[30px] font-bold mb-4 lg:w-[80%]  md:leading-[90px]">The Best Online Learning Platform</h1>
+                <p class="text-[#fff] text-[18px] lg:w-[70%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro molestiae quae nostrum necessitatibus ipsam nesciunt!</p>
+            </div>
+            <div class="mt-[35px]">
+                <a href="#" class="mr-[10px] sm:px-[40px] px-[20px] py-[20px]  bg-[#06BBCC] font-bold text-[#fff] hover:bg-[#fff] duration-1000 hover:text-[#000]" id="btn1">Read More</a>
+                <a href="#"class="mr-[10px] sm:px-[40px] px-[20px] py-[20px]
+                bg-[#fff] font-bold text-[#000] hover:bg-[#06BBCC] duration-1000 hover:text-[#fff]" id="btn2">Join Now</a>
+            </div>
+        </div>
+     </section>
+     <!-- items section -->
+      <section class="flex items-center md:justify-between py-5 lg:h-[60vh] h-auto" id="items-section">
+        <div class="max-w-[1320px] lg:mx-auto sm:mx-[100px] mx-[10px] grid lg:grid-cols-4 md:grid-cols-2 gap-5">
+            <!-- <div class="grid items-center md:justify-center gap-5 lg:flex-nowrap flex-wrap" id="items"> -->
+                <div class="py-4 bg-[#f0fbfc] basis-[50%] h-[280px] px-5 hover:bg-[#06BBCC] hover:text-[#fff] duration-700 cursor-text" id="item">
+                    <div class="text-center ">
+                        <i class='bx bxs-graduation flex justify-center text-[80px] text-[#06BBCC]' id="icon"></i>
+                        <h5 class="font-bold text-[20px] mb-3">Skilled Instructors</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamelitr sed ipsum justo</p>
+                    </div>
+                </div>
+                <div class="py-4 bg-[#f0fbfc] basis-[50%] h-[280px] px-5 hover:bg-[#06BBCC] hover:text-[#fff] duration-700 cursor-text" id="item">
+                    <div class="text-center">
+                        <i class='bx bx-globe flex justify-center text-[80px] text-[#06BBCC]' id="icon"></i>
+                        <h5 class="font-bold text-[20px] mb-3">Online Classes</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamelitr sed ipsum justo</p>
+                    </div>
+                </div>
+                <div class="py-4 bg-[#f0fbfc] basis-[50%] h-[280px] px-5 hover:bg-[#06BBCC] hover:text-[#fff] duration-700 cursor-text" id="item">
+                    <div class="text-center">
+                        <i class='bx bx-home flex justify-center text-[80px] text-[#06BBCC]' id="icon"></i>
+                        <h5 class="font-bold text-[20px] mb-3">Home Projects</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamelitr sed ipsum justo</p>
+                    </div>
+                </div>
+                <div class="py-4 bg-[#f0fbfc] basis-[50%] h-[280px] px-5 hover:bg-[#06BBCC] hover:text-[#fff] duration-700 cursor-text" id="item">
+                    <div class="text-center">
+                        <i class='bx bx-book-open flex justify-center text-[80px] text-[#06BBCC]' id="icon"></i>
+                        <h5 class="font-bold text-[20px] mb-3">Book Library</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diamelitr sed ipsum justo</p>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+      </section>
+      <!-- about us section -->
+       <section class="flex justify-center items-center h-auto" id="about-section">
+        <div class="max-w-[1320px] lg:mx-auto sm:mx-[100px] mx-[10px] grid lg:grid-cols-2 py-5 gap-5">
+            <div class="flex items-center justify-center" id="img">
+                    <img src="img/about-img.jpg" class="w-[800px] h-[450px]">
+            </div>
+            <div class=" lg:ml-[20px]" id="content">
+                <div class="flex items-center mb-3">
+                    <h5 class="text-[18px] font-bold text-[#06BBCC] mr-[20px]">ABOUT US</h5>
+                     <div class="flex flex-col ">
+                        <div class="w-[40px] h-[3px] bg-[#06BBCC] my-1"></div>
+                        <div class="w-[60px] h-[2px] bg-[#06BBCC]"></div>
+                     </div>
+                </div>
+                <h1 class="text-3xl font-bold mb-5">Welcome To Skooly</h1>
+                <p class="text-[17px] text-gray-500 mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dicta similique voluptate architecto cumque inventore nisi possimus commodi nobis.</p>
+                <p class="text-[17px] text-gray-500 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores dicta similique voluptate architecto cumque inventore nisi possimus commodi nobis inventore nisi possimus.</p>
+                <div class="grid grid-cols-2 text-gray-500" id="arrows">
+                    <div class="flex items-center" id="arrow">
+                        <i class='bx bx-right-arrow-alt text-2xl text-[#06BBCC] font-bold'></i>
+                        <h5 class="ml-2">Skilled Instructors</h5>
+                    </div>
+                    <div class="flex items-center" id="arrow">
+                        <i class='bx bx-right-arrow-alt text-2xl text-[#06BBCC] font-bold'></i>
+                        <h5 class="ml-2">Online Classes</h5>
+                    </div>
+                    <div class="flex items-center" id="arrow">
+                        <i class='bx bx-right-arrow-alt text-2xl text-[#06BBCC] font-bold'></i>
+                        <h5 class="ml-2">International Certificate</h5>
+                    </div>
+                    <div class="flex items-center" id="arrow">
+                        <i class='bx bx-right-arrow-alt text-2xl text-[#06BBCC] font-bold'></i>
+                        <h5 class="ml-2">Skilled Instructors</h5>
+                    </div>
+                    <div class="flex items-center" id="arrow">
+                        <i class='bx bx-right-arrow-alt text-2xl text-[#06BBCC] font-bold'></i>
+                        <h5 class="ml-2">Online Classes</h5>
+                    </div>
+                    <div class="flex items-center" id="arrow">
+                        <i class='bx bx-right-arrow-alt text-2xl text-[#06BBCC] font-bold'></i>
+                        <h5 class="ml-2">International Certificate</h5>
+                    </div>
+                </div>
+                <div class="mt-[43px]">
+                    <a href="#" class=" px-[50px] py-[20px]  bg-[#06BBCC] font-bold text-[#fff] hover:bg-[#fff] hover:border-2 hover:border-[#06BBCC] hover:rounded duration-1000 hover:text-gray-500" id="btn3">Read More</a>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!-- categories section -->
+        <section class="h-auto" id="cate-section">
+            <div class="max-w-[1320px] mx-auto py-10">
+                <div class="flex justify-center items-center">
+                    <div class="flex flex-col float-right ">
+                        <div class="w-[40px] h-[3px] bg-[#06BBCC] my-2 ml-5"></div>
+                        <div class="w-[60px] h-[1.5px] bg-[#06BBCC]"></div>
+                    </div>
+                     <h3 class="mx-5 text-xl font-bold text-[#06BBCC]">TEACHERS</h3>
+                     <div class="flex flex-col ">
+                        <div class="w-[40px] h-[3px] bg-[#06BBCC] my-2 "></div>
+                        <div class="w-[60px] h-[1.5px] bg-[rgb(6,187,204)]"></div>
+                    </div>
+                </div>
+                <div class="py-4 mb-5">
+                   <h1 class="text-center sm:text-[40px] text-3xl font-bold">Expert Teachers</h1>
+                </div>
+                <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 lg:mx-auto sm:mx-[100px] mx-[10px]">
+                    <div class="bg-[#F0FBFC]">
+                        <div id="teacher-img">
+                            <img src="img/team-1.jpg" class="w-svw" alt="">
+                        </div>
+                        <div class="flex justify-center relative top-[-30px] " id="icons">
+                           <div class="bg-[#F0FBFC] px-3 pt-2">
+                            <i class='bx bxl-facebook text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-twitter text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-instagram-alt text-[30px] bg-[#06BBCC] p-1 text-white '></i>
+                           </div>
+                        </div>
+                        <div class="text-center py-5">
+                            <h1 class="mb-2 text-3xl font-bold ">Teacher1</h1>
+                            <p class="text-xl">Web Developer</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#F0FBFC]">
+                        <div id="teacher-img">
+                            <img src="img/team-2.jpg" class="w-svw" alt="">
+                        </div>
+                        <div class="flex justify-center relative top-[-30px] " id="icons">
+                           <div class="bg-[#F0FBFC] px-3 pt-2">
+                            <i class='bx bxl-facebook text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-twitter text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-instagram-alt text-[30px] bg-[#06BBCC] p-1 text-white '></i>
+                           </div>
+                        </div>
+                        <div class="text-center py-5">
+                            <h1 class="mb-2 text-3xl font-bold ">Teacher2</h1>
+                            <p class="text-xl">Designer</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#F0FBFC]">
+                        <div id="teacher-img">
+                            <img src="img/team-3.jpg" class="w-svw" alt="">
+                        </div>
+                        <div class="flex justify-center relative top-[-30px] " id="icons">
+                           <div class="bg-[#F0FBFC] px-3 pt-2">
+                            <i class='bx bxl-facebook text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-twitter text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-instagram-alt text-[30px] bg-[#06BBCC] p-1 text-white '></i>
+                           </div>
+                        </div>
+                        <div class="text-center py-5">
+                            <h1 class="mb-2 text-3xl font-bold ">Teacher3</h1>
+                            <p class="text-xl">Programer</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#F0FBFC]">
+                        <div id="teacher-img">
+                            <img src="img/team-4.jpg" class="w-svw" alt="">
+                        </div>
+                        <div class="flex justify-center relative top-[-30px] " id="icons">
+                           <div class="bg-[#F0FBFC] px-3 pt-2">
+                            <i class='bx bxl-facebook text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-twitter text-[30px] bg-[#06BBCC] p-1 text-white mr-1'></i>
+                            <i class='bx bxl-instagram-alt text-[30px] bg-[#06BBCC] p-1 text-white '></i>
+                           </div>
+                        </div>
+                        <div class="text-center py-5">
+                            <h1 class="mb-2 text-3xl font-bold ">Teacher1</h1>
+                            <p class="text-xl">DIT</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- student section -->
+         <section class="h-auto">
+            <div class="max-w-[1320px] mx-auto py-10">
+                <div class="flex justify-center items-center">
+                    <div class="flex flex-col float-right ">
+                        <div class="w-[40px] h-[3px] bg-[#06BBCC] my-2 ml-5"></div>
+                        <div class="w-[60px] h-[1.5px] bg-[#06BBCC]"></div>
+                    </div>
+                     <h3 class="mx-5 text-xl font-bold text-[#06BBCC]">TESTIMONIAL</h3>
+                     <div class="flex flex-col ">
+                        <div class="w-[40px] h-[3px] bg-[#06BBCC] my-2 "></div>
+                        <div class="w-[60px] h-[1.5px] bg-[rgb(6,187,204)]"></div>
+                    </div>
+                </div>
+                <div class="py-4 mb-5">
+                   <h1 class="text-center sm:text-[40px] text-3xl font-bold">Our Students Say!</h1>
+                </div>
+                 <!-- cards -->
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6  lg:mx-auto sm:mx-[100px] mx-[10px] ">
+                    
+                    <div class="basis-[33%]">
+                            <div class="flex justify-center ">
+                                <img src="img/testimonial-1.jpg" class=" rounded-[50%] border-2 border-[#06BBCC] p-2"  alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="font-bold text-2xl mt-2">Client Name</h5>
+                                <p>Profession</p>
+                            </div>
+                            <div class="bg-[#f0fbfc] py-7 px-10 text-center mt-3">
+                                <p class="text-[#000] text-[18px]">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                            </div>
+                    </div>
+                    <div class="basis-[33%]">
+                            <div class="flex justify-center ">
+                                <img src="img/testimonial-2.jpg" class=" rounded-[50%] border-2 border-[#06BBCC] p-2"  alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="font-bold text-2xl mt-2">Client Name</h5>
+                                <p>Profession</p>
+                            </div>
+                            <div class="bg-[#06BBCC] py-7 px-10 text-center mt-3">
+                                <p class="text-[#fff] text-[18px]">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                            </div>
+                    </div>
+                    <div class="basis-[33%] ">
+                            <div class="flex justify-center ">
+                                <img src="img/testimonial-3.jpg" class=" rounded-[50%] border-2 border-[#06BBCC] p-2"  alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="font-bold text-2xl mt-2">Client Name</h5>
+                                <p>Profession</p>
+                            </div>
+                            <div class="bg-[#f0fbfc] py-7 px-10 text-center mt-3">
+                                <p class="text-[#000] text-[18px]">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- footer -->
+         <footer class="w-auto bg-[#181D38] h-auto ">
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5  sm:px-[100px] sm:pt-[100px] sm:pb-[80px] p-[10px] ">
+                <div class="basis-[28%] text-[#fff]">
+                    <h1 class="font-bold text-2xl">Quick Links</h1>
+                    <div class="flex flex-col mt-3 text-[18px]" id="quick-links">
+                        <a href="#" class="hover:translate-x-3 duration-700 pb-1"><i class='bx bx-chevron-right pr-1 font-bold '></i>About Us</a>
+                        <a href="#" class="hover:translate-x-3 duration-700 pb-1"><i class='bx bx-chevron-right pr-1 font-bold '></i>Contact Us</a>
+                        <a href="#" class="hover:translate-x-3 duration-700 pb-1"><i class='bx bx-chevron-right pr-1 font-bold '></i>Privacy Policy</a>
+                        <a href="#" class="hover:translate-x-3 duration-700 pb-1"><i class='bx bx-chevron-right pr-1 font-bold '></i>Terms & Condition</a>
+                        <a href="#" class="hover:translate-x-3 duration-700 pb-1"><i class='bx bx-chevron-right pr-1 font-bold '></i>FAQs & Help </a>
+                    </div>
+                </div>
+                <div class="basis-[28%] text-[#fff]">
+                    <h1 class="font-bold text-2xl">Contact</h1>
+                    <div class="flex flex-col mt-3 text-[18px]" id="contact-link">
+                       <div class="pb-2">
+                        <i class='bx bxs-location-plus clear font-bold text-[20px]'><span class="pl-2 text-[18px]">123 Street, GT Roaad, Pakistan</span></i>
+                       </div>
+                       <div class="pb-2">
+                        <i class='bx bxs-phone-call clear font-bold text-[20px]' ><span class="pl-2 text-[18px]">+923110940434</span></i>
+                        </div>
+                       <div class="pb-2">
+                        <i class='bx bxs-envelope clear font-bold text-[20px]' ><span class="pl-2 text-[18px]">mail@gmail.com</span></i>
+                        </div>
+                    </div>
+                    <div class="mt-1 " id="icon">
+                        <i class='bx bxl-twitter  text-[#fff] border-2 border-[#06bbcc] p-3 rounded-[50%] hover:bg-[#fff] hover:text-[#06bbcc] duration-700 cursor-pointer mr-2  hover:border-transparent text-[18px]'></i>
+                        <i class='bx bxl-facebook text-[#fff]  border-2 border-[#06bbcc] p-3 rounded-[50%] hover:bg-[#fff] hover:text-[#06bbcc] duration-700 cursor-pointer mr-2  hover:border-transparent text-[18px]'></i>
+                        <i class='bx bxl-youtube  text-[#fff] border-2 border-[#06bbcc] p-3 rounded-[50%] hover:bg-[#fff] hover:text-[#06bbcc] duration-700 cursor-pointer mr-2  hover:border-transparent text-[18px]' ></i>
+                        <i class='bx bxl-linkedin text-[#fff]  border-2 border-[#06bbcc] p-3 rounded-[50%] hover:bg-[#fff] hover:text-[#06bbcc] duration-700 cursor-pointer mr-2  hover:border-transparent text-[18px] sm:my-0 my-4'></i>
+                    </div>
+                </div>
+                <div class="basis-[28%] text-[#fff]">
+                    <h1 class="font-bold text-2xl">Gallery</h1>
+                    <div class="grid grid-cols-3 gap-3 mt-4 cursor-text">
+                        <img src="img/footer pic/course-1.jpg" alt="">
+                        <img src="img/footer pic/course-2.jpg" alt="">
+                        <img src="img/footer pic/course-3.jpg" alt="">
+                        <img src="img/footer pic/course-2.jpg" alt="">
+                        <img src="img/footer pic/course-3.jpg" alt="">
+                        <img src="img/footer pic/course-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="basis-[28%] text-[#fff]">
+                    <h1 class="font-bold text-2xl">Newsletter</h1>
+                    <div class="mt-3">
+                        <p class="text-[18px]">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <input type="text" placeholder="Your email" class="px-[15px] py-[15px] mt-4 text-[#000] outline-none">
+                        <input type="button" value="Sign Up" class="bg-[#06bbcc] px-[10px] py-[15px] ml-[-5px] cursor-pointer">
+                    </div>
+                </div>
+            </div>
+            <div class="h-[1px] bg-[#242942] max-w-[1320px] mx-auto"></div>
+            <div class="max-w-[1320px] mx-auto text-[#fff] py-[10px] h-auto sm:px-[100px] px-[10px]">
+                <div class="flex justify-between lg:flex-row  flex-col text-center">
+                    <div class="lg:pb-0 pb-3 md:text-[18px] text-[15px]">
+                        &copy; <a href="#">Your Site Name,</a>
+                        All Rights Reserved. Designed By 
+                        <a href="#">Technical Zohaib</a></div>
+                   <div class="space-x-4 ">
+                       <a href="#" class="border-r-2 pr-2 border-[#242942]">Home</a>
+                       <a href="#" class="border-r-2 pr-2 border-[#242942]">Cookies</a>
+                       <a href="#" class="border-r-2 pr-2 border-[#242942]">Helps</a>
+                       <a href="#">FAQs</a>
+                   </div>
+                </div>
+            </div>
+        </footer>
+        
+</body>
+</html> 
